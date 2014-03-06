@@ -7,7 +7,6 @@ Generates a function that is called with initially supplied arguments.
 
 `npm i -S callback-with`
 
-
 ## Usage
 
 ```js
@@ -18,7 +17,7 @@ fn(function (foo) {
   assert(foo === 'foo'); // true
 });
 
-// sync version can return values too
+// sync version can return values
 var fn = callbackWith.sync('foo');
 
 var bar = fn(function (foo) {
