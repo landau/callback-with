@@ -1,0 +1,39 @@
+{
+  "name": "callback-with",
+  "version": "0.0.1",
+  "description": "Generates a function that is called with initially supplied arguments",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint --reporter node_modules/jshint-stylish/stylish.js index.js test.js",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landau/callback-with.git"
+  },
+  "keywords": [
+    "async",
+    "functional",
+    "callback",
+    "asynchronous",
+    "sync",
+    "synchronous",
+    "callbacks",
+    "server",
+    "client",
+    "browser",
+    "util",
+    "utility"
+  ],
+  "author": "Trevor Landau <landautrevor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landau/callback-with/issues"
+  },
+  "homepage": "https://github.com/landau/callback-with",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "jshint-stylish": "~0.1.5",
+    "jshint": "~2.4.4"
+  }
+}
