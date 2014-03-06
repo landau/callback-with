@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/landau/callback-with.png?branch=master)](https://travis-ci.org/landau/callback-with)
+
 callback-with
 =============
 
